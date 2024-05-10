@@ -12,6 +12,7 @@ This project uses [Poetry](https://python-poetry.org/) for package management. I
 To install the project dependencies, run:
 
 ```sh
+python -m pip install poetry (For Windows)
 poetry install
 ```
 
@@ -20,6 +21,7 @@ poetry install
 This project uses [FastAPI](https://fastapi.tiangolo.com/). To start the server, run:
 
 ```sh
+python -m pip install fastapi
 poetry run uvicorn main:app --reload
 ```
 
