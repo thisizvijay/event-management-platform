@@ -1,0 +1,39 @@
+#Users
+ 
+1) User ID - uuid
+2) User Name - string
+3) DOB - DateTime
+4) Gender - Enum
+5) Email - string
+6) Phone Number - string
+7) IsVerified - boolean
+8) Password - string hashed
+9) CreatedAt - DateTime
+10) UpdatedAt - DateTime
+11) CreatedBy - uuid
+12) UpdatedBy - uuid
+
+#Events
+
+1) Event ID - uuid
+2) Event Name - string
+3) Event Description - string
+4) Event Date - DateTime
+5) Event Location - GPS coordinates
+6) Address - JSON
+7) MaxAttendees - int
+
+
+#Tickets
+
+1) Ticket ID - uuid
+2) Event ID - uuid (FK)
+3) Ticket Price - numeric
+
+#Feedback
+
+1) Feedback ID - uuid
+2) Event ID - uuid (FK)
+3) User ID - uuid (FK)
+4) Rating - float
+5) Comment - string
